@@ -1,6 +1,6 @@
 <?php
 
-    function webscraper() {
+    function busca() {
         $conteudo = file_get_contents('https://meu-cv.vercel.app/api/'); // Faz uma requisição GET para encontrar a webpage que será analisada e retorna o seu corpo
 
         if($conteudo === false) {

@@ -9,8 +9,8 @@
 </head>
 <body>
     <?php 
-        include "includes/funcao-webscraper.php";
-        webscraper();
+        include "includes/funcao-busca.php";
+        busca();
     ?>
 </body>
 </html>
